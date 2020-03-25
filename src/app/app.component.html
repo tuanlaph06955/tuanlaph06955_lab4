@@ -1,0 +1,25 @@
+<body>
+  <app-menu></app-menu>
+
+<div class="container">
+
+<!-- <app-product-manager></app-product-manager> -->
+<a routerLink="/product-manager">PRODUCT MANAGER</a>
+
+  <div class="row">
+    <div class="col-lg-3">
+      <app-category></app-category>
+    </div>
+    <div class="col-lg-9">
+      <app-banner></app-banner>
+      <a routerLink="/product-list">SHOW PRODUCT</a>
+      <router-outlet></router-outlet>
+    </div>
+
+  </div>
+
+
+</div>
+</body>
+
+<app-footer></app-footer>
